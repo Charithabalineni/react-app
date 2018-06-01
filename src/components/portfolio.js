@@ -1,14 +1,11 @@
 import React,{Component}from 'react';
 import './portfolio.css';
+import porImg1 from "../assets/images/p01.jpg";
+import porImg2 from "../assets/images/p02.jpg";
+import porImg3 from "../assets/images/p03.jpg";
+import porImg4 from "../assets/images/p04.jpg";
+import img from "../assets/images/portfolio.jpg";
 
-let porImg1,porImg2,porImg3,porImg4;
-
-porImg1="http://files.inglishowie.com.s3-website-eu-west-1.amazonaws.com/images/sales/Image.png";
-porImg2="https://format-com-cld-res.cloudinary.com/image/private/s--yKih5kcZ--/c_limit,g_center,h_65535,w_700/a_auto,fl_keep_iptc.progressive,q_95/v1/bd396056df591a252867ecc9499255ab/KAC_AITD_PostCard_6x4_web.jpg";
-porImg3="http://think-eg.com/images/portfolio/Alsonbola3.png";
-porImg4="https://www.conradferguson.com/site/conradferguson/assets/images/CFA_2013_web_portfolio12_700x476.jpg";
-
-let img="http://thestudioweb.com/wp-content/uploads/2016/02/inner-banner-03.jpg";
 class Portfolio extends Component{
     render(){
         return(

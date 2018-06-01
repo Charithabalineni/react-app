@@ -1,10 +1,7 @@
 import React,{Component} from 'react';
-
-let img1,img2,img3;
-
-img1 = "https://4.bp.blogspot.com/-hUtu9plQ7UI/WHSAWMTaE0I/AAAAAAAAAw4/yM8t3S63izsfZuDPhAQ0KajZJB1Ymsm6gCLcB/s700-c/mongodb.png ";
-img2 = "https://static1.squarespace.com/static/55c8e052e4b01bd89f02a45e/563cf3b4e4b0cb0c3bcbb61f/564cc5aee4b0cbfa0c1d1f7c/1455921954347/?format=1000w";
-img3 = "https://www.appeonix.com/photos/pages/what-is-node-js-featured-photo-1455714103.jpg";
+import img1 from "../assets/images/mongodb.jpg";
+import img2 from "../assets/images/reactjs.jpg";
+import img3 from "../assets/images/nodejs.jpg";
 
 class Section extends Component{
     render(){

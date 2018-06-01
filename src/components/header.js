@@ -1,14 +1,20 @@
 import React,{Component} from 'react';
 import './header.css';
+import h01 from '../assets/images/h01.jpg';
+import h02 from '../assets/images/h02.jpg';
+import h03 from '../assets/images/h03.jpg';
+
+
+
 
 let slideF = {
-    backgroundImage: 'url("https://www.northgatesystems.co.uk/assets/image/slider-image-1.jpg")'
+    backgroundImage: 'url('+h01+')'
 };
 let slideS = {
-    backgroundImage: 'url("https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373__340.jpg")'
+  backgroundImage: 'url('+h02+')'
 };
 let slideT = {
-    backgroundImage: 'url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg")'
+  backgroundImage: 'url('+h03+')'
 };
 
 class Header extends Component{

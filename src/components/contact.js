@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import  './contact.css';
 
-let contactBanner = "http://blueconsulting.co.in/wp-content/uploads/2013/12/contact-banner-image.jpg";
+import contactBanner from "../assets/images/contact.jpg";
 
 class Contact extends Component{
     render(){

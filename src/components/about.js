@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './about.css';
 
-let aboutImg="http://doctorsassociationkashmir.com/wp-content/uploads/2017/02/about-us-banner.jpg";
+import aboutImg from"../assets/images/about.jpg";
 
 
 
